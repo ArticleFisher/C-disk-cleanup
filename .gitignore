@@ -1,0 +1,11 @@
+# Windows
+Desktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# PowerShell
+*.ps1.bak
+
+# Temp
+*.tmp
+*.log
