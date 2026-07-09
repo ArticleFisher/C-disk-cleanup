@@ -1,11 +1,77 @@
-# Windows
+# Windows system
 Desktop.ini
 Thumbs.db
-$RECYCLE.BIN/
+$RECYCLE_BIN/
+NTUSER.DAT*
+ntuser.*
 
-# PowerShell
-*.ps1.bak
+# User profile directories
+AppData/
+Desktop/
+Documents/
+Downloads/
+Music/
+Pictures/
+Videos/
+OneDrive/
+Links/
+Searches/
+Saved Games/
+Netease/
+"Process Lasso/"
+Sangfor/
+
+# Dev tools & IDEs
+.vscode/
+.vscode-shared/
+.trae-cn/
+.cursor/
+.copilot/
+.codex/
+.conda/
+.ipython/
+.spyder-py3/
+.idl/
+.matplotlib/
+.spss/
+.dotnet/
+.config/
+.local/
+.cache/
+.ai_completion/
+.cc-switch/
+
+# IDL & GIS
+IDLWorkspace/
+ENVILiDARHeightPalettes/
+ENVILiDARTemplates/
+Arcgis/
+
+# Virtual machines
+.GLEVirtualBox/
+.GameAssistBox/
+DOSBox-0.74-3/
+
+# Python
+*.pyc
+__pycache__/
+.conda/
+Jedi/
+
+# Config files
+.claude/
+.claude.json
+.gitconfig
 
 # Temp
 *.tmp
 *.log
+*.bak
+*.blf
+*.regtrans-ms
+
+# Project specific - keep scripts clean
+*.docx
+*.bat
+personal_action_manual.md
+gh_auth.ps1
